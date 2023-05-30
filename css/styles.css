@@ -1,0 +1,28 @@
+body {
+  background: url('../img/background02.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+}
+
+#weather-info {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  padding: 20px;
+  font-weight: bold;
+}
+
+#city-name {
+  margin-right: 20px; /* adjust as needed */
+}
+
+#weather-icon {
+  width: 12%;
+  height: auto;
+}
